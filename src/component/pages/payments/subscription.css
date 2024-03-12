@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Figtree-Medium";
+  src: url("../../fonts/static/Figtree-Medium.ttf");
+}
+
+* {
+  font-family:  "Figtree-Medium";
+}
+
+.more-det {
+  color: black;
+}
+
+.more-det:hover {
+  color: blue;
+}
+
+.pay-button {
+  background: transparent;
+  outline: none;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+
+.pay-button:hover {
+  background: white;
+  
+}

@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Figtree-Medium";
+    src: url("../../fonts/static/Figtree-Medium.ttf");
+  }
+  *{
+    font-family:  "Figtree-Medium";
+  }
+  input{
+    font-family: "Figtree-Medium" !important;
+    outline: "none"
+  }
+  
+  .input-field:hover{
+    border: none;
+    outline: none;
+    margin: 0;
+  }
+  .lb-icon {
+    position: absolute;
+    
+  }
+  
+  .lb-icon svg {
+    display: block;
+  }
+  
+  
+  .input-field1::placeholder {
+    font-size: 14px; 
+    color: #acaaaa;
+  }
+
+  select {
+    font-family: "Figtree-Medium";
+      width: 100%;
+      padding: 8px;
+      border: none;
+      border-bottom: 2px solid #e2e4e5;
+      background-color: transparent;
+      border-radius: 0;
+      appearance: none; 
+      -webkit-appearance: none; 
+      -moz-appearance: none;
+      outline: none;
+    }
+    
+   
+    select option {
+      font-family: "Figtree-Medium";
+      padding: 100px;
+    }
+    
+    input{
+      outline: none;
+    }
+    select {
+  
+      height: 45px;
+    }
+    
+    
+    select option {
+      font-size: 14px;
+    }
+    

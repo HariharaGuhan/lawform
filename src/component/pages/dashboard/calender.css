@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Figtree-Medium";
+    src: url("../../fonts/static/Figtree-Medium.ttf");
+  }
+.calender-top{
+  margin: 0;
+  padding: 0;  
+  box-sizing: border-box;
+  font-family: "Figtree-Medium";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: gray;
+}
+.wrapper{
+    width: 450px;
+    background: #fff;
+}
+.calender ul{
+    display: flex;
+}
